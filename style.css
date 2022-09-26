@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ;
+    padding: 40px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.portfolio-section > .about-me,
+.portfolio-section > .work,
+.portfolio-section > .contact-me {
+    margin-top: 50px;
+}
