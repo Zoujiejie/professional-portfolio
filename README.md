@@ -11,5 +11,11 @@
 * It's done when I click on the images of the applications, then I am taken to that deployed application
 * It's done when I resize the page or view the site on various screens and devices, then I am presented with a responsive layout that adapts to my viewport
 
+## Steps
+- Create the layout of the page -- header, section 1-About Me, section 2-Work, section 3-Contact Me
+- Create the nav bar on the header to direct ths user to the right section
+- Input content into the individual sections
+- Use media query to create a responsive layout
+
 ## Credits:
 - YouTube video - HTML & CSS Full Course: [title](https://youtu.be/G3e-cpL7ofc)

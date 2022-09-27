@@ -96,3 +96,15 @@ nav a {
 .intro {
     margin-top: 60px;
 }
+
+@media screen and (max-width: 992px) {
+    main > .portfolio-section > .about-me  {
+        height: 125%;
+      }
+  }
+  
+@media screen and (max-width: 768px) {
+    main > .portfolio-section > .about-me  {
+      height: 125%;
+    }
+  }
