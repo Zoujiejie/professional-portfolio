@@ -25,6 +25,7 @@ header {
     font-size: 40px;
 }
 
+
 .nav {
     display: flex;
     justify-content: end;
@@ -36,15 +37,24 @@ nav a {
     margin-left: 20px;
 }
 
+.profile-picture{
+    display: flex;
+    max-height: 260px;
+    float: left;
+    margin-right: 25px;
+}
+
 .portfolio-section > .about-me,
 .portfolio-section > .work,
 .portfolio-section > .contact-me {
     background-color: rgb(185, 185, 238);
     margin-top: 20px;
+    position: relative;
+    padding: 20px;
 }
 
 .portfolio-section > .about-me {
-    height: 200px;
+    height: 300px;
 }
 
 .portfolio-section > .work {
@@ -53,4 +63,36 @@ nav a {
 
 .portfolio-section > .contact-me {
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title-1 {
+    position: absolute;
+    top: 25px;
+    margin-left: 222px;
+}
+
+.title-3 {
+    position: absolute;
+    top: 15px;
+}
+
+.contact {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    text-decoration: underline;
+}
+
+.email {
+    margin-right: 40px;
+}
+
+.intro {
+    margin-top: 60px;
 }
