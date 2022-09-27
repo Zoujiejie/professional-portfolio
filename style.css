@@ -63,11 +63,6 @@ nav a {
 
 .portfolio-section > .contact-me {
     height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 .title-1 {
@@ -85,8 +80,9 @@ nav a {
     font-size: 20px;
     display: flex;
     justify-content: end;
-    margin-right: 80px;
+    margin-right: 60px;
     text-decoration: underline;
+    bottom: 15px;
 }
 
 .email {
@@ -97,14 +93,29 @@ nav a {
     margin-top: 60px;
 }
 
+.projects {
+    display: flex;
+}
+
+.prework {
+    height: 450px;
+}
+
+.landing-page,
+.CSS-Snippet-Cheatsheet {
+    height: 200px;
+}
+
 @media screen and (max-width: 992px) {
-    main > .portfolio-section > .about-me  {
+    main > .portfolio-section > .about-me,
+    main > .portfolio-section > .contact-me {
         height: 125%;
       }
   }
   
 @media screen and (max-width: 768px) {
-    main > .portfolio-section > .about-me  {
-      height: 125%;
+    main > .portfolio-section > .about-me,
+    main > .portfolio-section > .contact-me {
+      height: 150%;
     }
   }
