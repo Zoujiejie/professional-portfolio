@@ -58,7 +58,7 @@ nav a {
 }
 
 .portfolio-section > .work {
-    height: 600px;
+    height: 500px;
 }
 
 .portfolio-section > .contact-me {
@@ -95,22 +95,27 @@ nav a {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.prework {
-    height: 450px;
-}
-
+.prework,
 .landing-page,
 .CSS-Snippet-Cheatsheet {
-    height: 200px;
+    height: 300px;
+    margin: 10px;
 }
 
 @media screen and (max-width: 992px) {
     main > .portfolio-section > .about-me,
     main > .portfolio-section > .contact-me {
         height: 125%;
-      }
+      };
+    
+    main > .portfolio-section > .work > .project. > .cheatsheet > .CSS-Snippet-Cheatsheet {
+       
+    }
   }
   
 @media screen and (max-width: 768px) {
