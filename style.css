@@ -9,11 +9,28 @@ body {
     padding: 40px;
 }
 
-nav {
-    text-align: right;
+header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--tertiary);
+    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  }
+
+.myName {
+    margin-left: 20px;
+    font-size: 40px;
 }
 
-nav ul li {
+.nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
     display: inline-block;
     font-size: 25px;
     margin-left: 20px;
@@ -22,5 +39,18 @@ nav ul li {
 .portfolio-section > .about-me,
 .portfolio-section > .work,
 .portfolio-section > .contact-me {
-    margin-top: 50px;
+    background-color: rgb(185, 185, 238);
+    margin-top: 20px;
+}
+
+.portfolio-section > .about-me {
+    height: 200px;
+}
+
+.portfolio-section > .work {
+    height: 600px;
+}
+
+.portfolio-section > .contact-me {
+    height: 100px;
 }
