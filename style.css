@@ -48,8 +48,8 @@ nav a {
 .portfolio-section > .work,
 .portfolio-section > .contact-me {
     background-color: rgb(185, 185, 238);
-    margin-top: 20px;
-    position: relative;
+    margin-top: 20px; */
+   /* position: relative;*/
     padding: 20px;
 }
 
@@ -57,24 +57,24 @@ nav a {
     height: 300px;
 }
 
-.portfolio-section > .work {
-    height: 500px;
-}
+/* .portfolio-section > .work { */
+    /* height: 500px; */
+/* } */
 
 .portfolio-section > .contact-me {
     height: 100px;
 }
 
 .title-1 {
-    position: absolute;
+   / position: absolute;*/
     top: 25px;
     margin-left: 222px;
 }
 
-.title-3 {
+/* .title-3 {
     position: absolute;
     top: 15px;
-}
+} */
 
 .contact {
     font-size: 20px;
@@ -98,6 +98,12 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
+}
+.cheatsheet,
+.prework-study,
+.landing {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .prework,
