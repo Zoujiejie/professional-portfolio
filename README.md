@@ -17,5 +17,8 @@
 - Input content into the individual sections
 - Use media query to create a responsive layout
 
+## Deployed
+* GitHub Page: https://zoujiejie.github.io/professional-portfolio/ 
+
 ## Credits:
-- YouTube video - HTML & CSS Full Course: [title](https://youtu.be/G3e-cpL7ofc)
+- YouTube video - [HTML & CSS Full Course](https://youtu.be/G3e-cpL7ofc)
